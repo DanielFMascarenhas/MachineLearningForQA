@@ -8,6 +8,8 @@ Using a dataset of 50,000 bug reports, the project applies Machine Learning mode
 
 The goal is to explore how ML can support automated defect triaging, prioritization, and assignment in modern QA workflows.
 
+
+
 🚀 Problem Statement
 
 When bugs are reported in issue trackers, QA engineers typically need to manually determine:
@@ -16,20 +18,11 @@ Bug category, Severity, Responsible developer role, Bug domain etc
 
 This project investigates whether Machine Learning can predict these attributes automatically using bug report data.
 
+
 📊 Dataset
 Link: https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset/data
 
 The dataset contains ~50K bug records with fields such as:
-
-Column	Description
-title	Bug summary
-description	Detailed bug explanation
-bug_domain	Area of system (Web, Mobile, Data, Cloud, etc.)
-bug_category	Type of defect
-developer_role	Role responsible for fixing
-severity	Criticality of the issue
-environment	Environment where bug was observed
-created_at	Bug creation timestamp
 
 For modeling purposes, the main input features used are:
 
@@ -39,7 +32,9 @@ Bug domain
 
 Environment
 
+
 ⚙️ Approach
+
 1. Data Preprocessing
 
 Remove unnecessary columns
@@ -72,7 +67,9 @@ Multinomial Naive Bayes
 
 This model works well for text classification problems.
 
+
 📈 Example ML Tasks
+
 
 This project explores prediction of:
 
@@ -89,12 +86,12 @@ Domain: Backend
 Environment: Production
 
 Predicted Output
-Severity: High
 Category: Backend defect
 Developer Role: Backend Engineer
+Severity: High
 
 
-🛠️ Tech Stack
+🛠️ Tech Stack Used
 
 Python
 pandas
@@ -117,6 +114,7 @@ Duplicate bug detection
 Defect trend analysis
 
 These capabilities can improve testing efficiency and reduce manual triage effort.
+
 
 📌 Future Improvements
 
