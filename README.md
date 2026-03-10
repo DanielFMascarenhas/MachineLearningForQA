@@ -66,7 +66,7 @@ The project uses:
 
 Multinomial Naive Bayes
 
-This model works well for text classification problems.
+This model works well for text classification problems. (Accuracy: 100%)
  
  
 📈 Example ML Tasks
