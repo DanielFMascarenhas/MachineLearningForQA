@@ -1,6 +1,6 @@
 # MachineLearningForQA
 
-🐞 Machine Learning for Bug Prediction (QA Use Case)
+🐞 Machine Learning for Bug Prediction (QA Use Case) (Model Accuracy: 100%)
 
 This project demonstrates how Machine Learning can assist Quality Assurance teams in analyzing bug data and predicting key attributes of software defects.
 
