@@ -7,9 +7,9 @@ This project demonstrates how Machine Learning can assist Quality Assurance team
 Using a dataset of 50,000 bug reports, the project applies Machine Learning models to predict characteristics of bugs based on their titles and metadata.
 
 The goal is to explore how ML can support automated defect triaging, prioritization, and assignment in modern QA workflows.
-
-
-
+ 
+ 
+ 
 🚀 Problem Statement
 
 When bugs are reported in issue trackers, QA engineers typically need to manually determine:
@@ -17,8 +17,8 @@ When bugs are reported in issue trackers, QA engineers typically need to manuall
 Bug category, Severity, Responsible developer role, Bug domain etc
 
 This project investigates whether Machine Learning can predict these attributes automatically using bug report data.
-
-
+ 
+ 
 📊 Dataset
 Link: https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset/data
 
@@ -31,10 +31,11 @@ Bug title (text data)
 Bug domain
 
 Environment
-
-
+ 
+ 
 ⚙️ Approach
 
+  
 1. Data Preprocessing
 
 Remove unnecessary columns
@@ -66,11 +67,11 @@ The project uses:
 Multinomial Naive Bayes
 
 This model works well for text classification problems.
-
-
+ 
+ 
 📈 Example ML Tasks
-
-
+ 
+ 
 This project explores prediction of:
 
 Bug Category
@@ -89,18 +90,18 @@ Predicted Output
 Category: Backend defect
 Developer Role: Backend Engineer
 Severity: High
-
-
+ 
+ 
 🛠️ Tech Stack Used
-
+ 
 Python
 pandas
 scikit-learn
 Matplotlib
-
-
+ 
+ 
 💡 Potential QA Applications
-
+ 
 Machine learning models like this can support:
 
 Automated bug triaging
@@ -114,26 +115,26 @@ Duplicate bug detection
 Defect trend analysis
 
 These capabilities can improve testing efficiency and reduce manual triage effort.
-
-
+ 
+ 
 📌 Future Improvements
-
+ 
 Possible enhancements include:
 
 Using TF-IDF vectorization
 
 Trying advanced models like deep learning / transformers for NLP
-
-
+ 
+ 
 🤝 Contributions
 
 Contributions and suggestions are welcome.
 
 If you have ideas on improving ML for QA workflows, feel free to open an issue or pull request.
-
-
+ 
+ 
 About Me: 
-
+ 
 Hi! Myself Daniel, from Pune, India. I'm a Quality Assurance Leader and Test Architect with around 20 years of experience in the IT industry, with a strong focus on software product development, quality engineering, and team leadership. Throughout my career, I’ve worked across diverse domains and technologies, helping teams deliver scalable, reliable, and high-performing solutions. I’m passionate about simplifying complex technical topics and sharing practical insights drawn from real-world experience. Whether it's developing test automation frameworks, driving test automation strategies, or mentoring engineering teams, I believe in building with clarity, purpose, and a mindset of continuous improvement.
 
 Reachout to me on LinkedIn: https://www.linkedin.com/in/daniel-m-4317b622/
