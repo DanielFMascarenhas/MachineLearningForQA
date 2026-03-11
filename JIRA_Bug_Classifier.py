@@ -11,7 +11,7 @@ df.columns()
 #  bug_category, developer_role, severity are possible outputs for bug classification.
 #  In this model we will focus on bug_category
 
-# Lets drop irrelevant columns
+# Lets perform data preprocessing
 df.drop(['bug_id','description', 'error_code','tech_stack','root_cause','suggested_fix','explanation','created_at'], axis=1, inplace=True)
 
 # convert categorical values into numerics
