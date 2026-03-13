@@ -38,7 +38,14 @@ df_bug_category_Y = pd.concat([df[['bug_category_id']]],axis=1)
 # Split data for training & testing
 X_train, X_test, Y_train, Y_test = train_test_split(df_X,df_bug_category_Y,test_size=0.2, random_state=42)
 
-# Used cross_evaluation technique to find out best performing model. & Multinomial Naive Bayes was finalized.
+# Used cross_evaluation technique to find out best performing model. 
+# Took this below approach for finding best suitable model
+# print("5 best values of RandomForestClassifier: ",cross_val_score(RandomForestClassifier(),X_train,Y_train))
+# print("5 best values of GaussianNB: ",cross_val_score(GaussianNB(),X_train,Y_train))
+# print("5 best values of SVM: ",cross_val_score(SVC(),X_train,Y_train))
+# print("5 best values of KNN: ",cross_val_score(KNeighborsClassifier(),X_train,Y_train))
+# Multinomial Naive Bayes was finalized.
+
 # This model gave 100% accuracy. This can be extended for any QA data classifiction problem.
 model = MultinomialNB()
 model.fit(X_train,Y_train)
